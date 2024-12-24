@@ -2,6 +2,6 @@
   
   D:\document\ParallelProg\Code\parallel_bf\parallel_dijkstra>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_75,code=\"sm_75,compute_75\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart none -allow-unsupported-compiler -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o D:\document\ParallelProg\Code\parallel_bf\parallel_dijkstra\x64\Debug\parallel.cu.obj "D:\document\ParallelProg\Code\parallel_bf\parallel_dijkstra\parallel.cu" 
   parallel.cu
-  tmpxft_000062e4_00000000-7_parallel.cudafe1.cpp
+  tmpxft_00004f58_00000000-7_parallel.cudafe1.cpp
 D:\document\ParallelProg\Code\parallel_bf\parallel_dijkstra\parallel.cu(146): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   parallel_dijkstra.vcxproj -> D:\document\ParallelProg\Code\parallel_bf\x64\Debug\parallel_dijkstra.exe

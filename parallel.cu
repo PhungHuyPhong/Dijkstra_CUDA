@@ -163,19 +163,19 @@ int main() {
     start = clock();
     dijkstraParallel(adjMatrix, distancesParallel, V, 0);
     end = clock();
+		
     printf("Parallel Dijkstra time: %.2f seconds\n", (double)(end - start) / CLOCKS_PER_SEC);
 
-	for (int i = 0; i < V; i++) {
-		if (distancesSerial[i] != distancesParallel[i]) {
-			printf("Results are different\n");
-			break;
-		}
-	}
-
+    for (int i = 0; i < V; i++) {
+        if (distancesSerial[i] != distancesParallel[i]) {
+            printf("Results are different\n");
+            break;
+        }
+    }
     free(adjMatrix);
     free(distancesSerial);
     free(distancesParallel);
 
     return 0;
+    
 }
-
